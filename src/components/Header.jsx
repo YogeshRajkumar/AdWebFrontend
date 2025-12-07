@@ -12,12 +12,12 @@ function Nav() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8 text-gray-900">
-          <a href="#" className="hover:text-black">Features</a>
-          <a href="#" className="hover:text-black">Problem</a>
-          <a href="#" className="hover:text-black">Solutions</a>
-          <a href="#" className="hover:text-black">Setup</a>
-          <a href="#" className="hover:text-black">Audience</a>
-          <a href="#" className="hover:text-black">Testimonials</a>
+          <a href="#Features" className="hover:text-black">Features</a>
+          <a href="#Problem" className="hover:text-black">Problem</a>
+          <a href="#Solutions" className="hover:text-black">Solutions</a>
+          <a href="#Setup" className="hover:text-black">Setup</a>
+          <a href="#FourForm" className="hover:text-black">Audience</a>
+          <a href="#CTA" className="hover:text-black">Testimonials</a>
         </div>
 
         {/* Desktop Buttons */}

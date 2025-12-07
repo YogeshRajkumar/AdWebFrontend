@@ -5,12 +5,14 @@ import { FaAmazon, FaShopify } from "react-icons/fa";
 
 function CTA() {
   return (
-    <section className="relative w-full p-15 mx-auto text-center rounded-3xl bg-white overflow-hidden">
+    <section id="CTA" className="relative w-full p-15 mx-auto text-center rounded-3xl bg-white overflow-hidden">
 
       {/* Floating Icons */}
-      <div className="absolute left-2/8 top-2/3 -rotate-35 bg-white p-3 rounded-xl shadow-md">
+
+      <div className="absolute left-2/8 top-2/3 -rotate-35 bg-white p-3 rounded-xl shadow-md" >
         <FcGoogle size={40} />
       </div>
+
 
       <div className="absolute left-1/8 top-1/3 rotate-35 bg-white p-3 rounded-xl shadow-md">
         <FaTiktok size={40} className="text-black" />

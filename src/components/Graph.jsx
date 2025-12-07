@@ -16,7 +16,7 @@ function Graph() {
     ]
 
     return (
-        <div className='flex flex-col justify-center items-center p-10'>
+        <div id='Features' className='flex flex-col justify-center items-center p-10'>
             <div className="inline-flex items-center gap-2 bg-white shadow-sm border px-4 py-1 rounded-full mb-6">
                 <span className="text-purple-600 text-lg">★</span>
                 <span className="text-sm font-medium">Core Features</span>

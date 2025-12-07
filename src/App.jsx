@@ -8,7 +8,7 @@ import Header from "./components/Header";
 import Graph from "./components/Graph";
 import FourForm from "./components/FourForm";
 import CTA from "./components/CTA";
-
+import Setup from "./components/Setup";
 function App() {
   return (
     <div className="overflow-x-hidden">
@@ -19,8 +19,10 @@ function App() {
       <Solutions />
       <Graph />
       <FourForm />
+      <Setup/>
       <CTA/>
       <Footer />
+      
     </div>
   );
 }

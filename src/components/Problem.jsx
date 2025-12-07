@@ -3,7 +3,7 @@ import RightSideImage from "./RightSideImage.png";
 
 function Problem() {
     return (
-        <div className="max-w-7xl mx-auto px-6">
+        <div id="Problem" className="max-w-7xl mx-auto px-6">
 
             <div className="hidden md:grid md:grid-cols-2 gap-16 items-center">
 
